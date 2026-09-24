@@ -1,0 +1,38 @@
+{
+  "name": "uptime-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serverless uptime monitoring that runs entirely on GitHub Actions and publishes a status page to GitHub Pages.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "tsx src/scripts/run-checks.ts",
+    "build:data": "tsx src/scripts/build-site-data.ts",
+    "build": "npm run build:data && vite build",
+    "dev": "vite",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.2",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+# Configuration for uptime-monitor.
+# Each entry describes one endpoint to check every 30 minutes.
+#
+# Fields:
+#   name              Human-readable name shown on the status page (required)
+#   url               URL to request (required)
+#   method            HTTP method, default GET (optional)
+#   expectedStatus    Expected HTTP status code, default 200 (optional)
+#   timeoutMs         Request timeout in milliseconds, default 10000 (optional)
+#   keyword           Substring that must appear in the response body (optional)
+
+monitors:
+  - name: Website
+    url: https://adriasancheza.com
+    method: GET
+    expectedStatus: 200
+    timeoutMs: 10000
+
+  - name: Quote Builder demo
+    url: https://adriasancheza.github.io/quote-builder/
+    method: GET
+    expectedStatus: 200
+    timeoutMs: 10000

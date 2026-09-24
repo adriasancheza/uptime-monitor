@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+
+# History data lives on the status-data branch, not on main.
+/data/
+/public/data/
+
+*.log
+.DS_Store
+Thumbs.db
+
+# graphify code-map output, never committed
+graphify-out/
