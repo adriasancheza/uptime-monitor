@@ -43,14 +43,14 @@
     },
     {
       "date": "2026-09-27",
-      "totalChecks": 4,
-      "successfulChecks": 4,
+      "totalChecks": 5,
+      "successfulChecks": 5,
       "uptimePercent": 100,
-      "averageLatencyMs": 129,
+      "averageLatencyMs": 132,
       "minLatencyMs": 83,
       "maxLatencyMs": 151,
       "lastStatusCode": 200,
-      "lastCheckedAt": "2026-09-27T15:28:32.742Z",
+      "lastCheckedAt": "2026-09-27T19:10:07.218Z",
       "lastTlsDaysToExpiry": 34,
       "incidents": 0
     }
@@ -64,10 +64,10 @@
   "lastResult": {
     "name": "Quote Builder demo",
     "url": "https://adriasancheza.github.io/quote-builder/",
-    "timestamp": "2026-09-27T15:28:32.742Z",
+    "timestamp": "2026-09-27T19:10:07.218Z",
     "ok": true,
     "statusCode": 200,
-    "responseTimeMs": 151,
+    "responseTimeMs": 146,
     "error": null,
     "tls": {
       "daysToExpiry": 34,
