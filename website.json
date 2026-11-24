@@ -794,6 +794,19 @@
       "lastCheckedAt": "2026-11-23T13:24:15.867Z",
       "lastTlsDaysToExpiry": 66,
       "incidents": 0
+    },
+    {
+      "date": "2026-11-24",
+      "totalChecks": 1,
+      "successfulChecks": 1,
+      "uptimePercent": 100,
+      "averageLatencyMs": 562,
+      "minLatencyMs": 562,
+      "maxLatencyMs": 562,
+      "lastStatusCode": 200,
+      "lastCheckedAt": "2026-11-24T01:06:00.179Z",
+      "lastTlsDaysToExpiry": 65,
+      "incidents": 0
     }
   ],
   "incidentState": {
@@ -805,13 +818,13 @@
   "lastResult": {
     "name": "Website",
     "url": "https://adriasancheza.com",
-    "timestamp": "2026-11-23T13:24:15.867Z",
+    "timestamp": "2026-11-24T01:06:00.179Z",
     "ok": true,
     "statusCode": 200,
-    "responseTimeMs": 509,
+    "responseTimeMs": 562,
     "error": null,
     "tls": {
-      "daysToExpiry": 66,
+      "daysToExpiry": 65,
       "validTo": "2027-01-28T21:59:27.000Z"
     }
   }
